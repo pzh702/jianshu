@@ -1,0 +1,30 @@
+.WriteWrapper {
+	margin: 0 auto;
+	padding: 10px 0px;
+	width: 800px;
+}
+
+.meta {
+	display: flex;
+	flex: 1 1;
+	align-items: flex-start;
+	max-width: 90%;
+}
+
+.title {
+	margin-bottom: 4px;
+	color: rgba(0, 0, 0, 0.85);
+	font-size: 14px;
+	line-height: 1.5715;
+}
+
+.title > a {
+	color: rgba(0, 0, 0, 0.85);
+	transition: all 0.3s;
+}
+
+.description {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 14px;
+	line-height: 1.5715;
+}
